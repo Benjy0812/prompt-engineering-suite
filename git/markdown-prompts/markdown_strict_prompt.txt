@@ -28,7 +28,7 @@ Generate **clean, professional Markdown documents** that are fully compliant wit
 - Use spaces only; no hard tabs.
 - No trailing spaces or multiple consecutive blank lines.
 - Wrap text to a reasonable line length.
-- End file with **one trailing newline**.
+- End file with **one trailing newline**. (MD047)
 
 ---
 
