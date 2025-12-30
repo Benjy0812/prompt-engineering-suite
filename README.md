@@ -1,12 +1,15 @@
 # Markdown Style Guide
 
-This document outlines the standards for creating clean, consistent, and valid Markdown files. Adhering to these guidelines ensures that our documentation is readable, maintainable, and professional.
+This document outlines the standards for creating clean, consistent, and valid
+Markdown files. Adhering to these guidelines ensures that our documentation is
+readable, maintainable, and professional.
 
 ## Headings
 
 - Heading levels must increment by one and should not be skipped.
 - The document must contain only one top-level heading (`#`).
-- Headings must start at the beginning of a line with a single space after the `#` characters.
+- Headings must start at the beginning of a line with a single space after the
+  `#` characters.
 - Do not add any trailing punctuation to headings.
 - Ensure headings are unique to avoid confusion.
 - Surround every heading with a single blank line.
@@ -34,9 +37,11 @@ This document outlines the standards for creating clean, consistent, and valid M
 
 ## Links and Images
 
-- Do not use bare URLs; always use proper link syntax: `[Descriptive Link Text](https://example.com)`.
+- Do not use bare URLs; always use proper link syntax:
+  `[Descriptive Link Text](https://example.com)`.
 - Link text should clearly describe the destination.
-- All images must include descriptive alt text: `![Alt text for image](path/to/image.png)`.
+- All images must include descriptive alt text:
+  `![Alt text for image](path/to/image.png)`.
 - Use a consistent style for links, preferably inline.
 - Ensure all link fragments are valid.
 
@@ -49,7 +54,7 @@ This document outlines the standards for creating clean, consistent, and valid M
 - Use triple backticks (```) consistently as the fence style.
 - Do not include spaces inside `inline code` spans.
 
-````markdown
+```markdown
 # Example Heading
 
 This is a paragraph.
@@ -63,10 +68,7 @@ This is some **bold** and *italic* text.
 function greet() {
   console.log("Hello, World!");
 }
-
 ```
-````
-
 ```
 
 ## Tables
@@ -75,20 +77,24 @@ function greet() {
 - Ensure column counts are consistent across all rows.
 - Align content within columns consistently using pipes (`|`).
 
+```markdown
 | Header 1 | Header 2 |
 | :--- | :--- |
 | Cell 1 | Cell 2 |
 | Cell 3 | Cell 4 |
+```
 
 ## Blockquotes
 
 - Use a single space after the `>` character.
 - Do not include blank lines within a single blockquote.
 
+```markdown
 > This is a correctly formatted blockquote.
+```
 
 ## Naming Conventions
 
 - Use correct capitalization for proper names and technologies.
 - Examples: GitHub, Markdown, Node.js, JavaScript.
-```
+
