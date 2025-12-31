@@ -12,7 +12,7 @@ documentation tasks, such as generating Markdown files and Git commit messages.
 
 The current directory structure is as follows:
 
-- `CLI_INSTRUCTIONS.md`
+- `USAGE_INSTRUCTIONS.md`
 - `GEMINI.md`
 - `README.md`
 - `prompts/git/global_commit_message_prompt.txt`
@@ -41,7 +41,7 @@ The current directory structure is as follows:
   the AI to generate Markdown, but with a more flexible and relaxed set of
   rules, prioritizing readability over strict linting compliance.
 
-- **`CLI_INSTRUCTIONS.md`**: This file contains the instructions for the AI agent
+- **`USAGE_INSTRUCTIONS.md`**: This file contains the instructions for the AI agent
   itself, defining how it should analyze a directory and generate this
   `GEMINI.md` file.
 
