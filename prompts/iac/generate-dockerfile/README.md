@@ -1,3 +1,3 @@
-# Generate Dockerfile Prompt
+# Generate Dockerfile Prompt README
 
-This prompt guides the AI to act as a DevOps expert and generate an optimized `Dockerfile` for a given application. It focuses on security, performance, and small image size by using techniques like multi-stage builds and non-root users.
+This README explains the 'generate-dockerfile' prompt. It's designed to help users create optimized Dockerfiles.

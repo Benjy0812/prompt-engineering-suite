@@ -6,17 +6,20 @@ This guide provides general instructions on how to use the prompts from this rep
 
 The prompts in this repository are designed to be versatile and can be used in several ways. The most common methods are:
 
-1.  **Copy and Paste**:
+-   **Copy and Paste**:
     -   Open the desired prompt file (e.g., `prompts/git/web-dev-commit/prompt.txt`).
     -   Copy the entire content of the file.
     -   Paste it directly into your AI chat interface or CLI prompt.
 
-2.  **Using with a CLI Tool**:
+-   **Using with a CLI Tool**:
     -   If your CLI tool supports it, you can pipe the content of the prompt file directly to it. For example:
+
         ```bash
         cat prompts/git/web-dev-commit/prompt.txt | your-cli-tool
         ```
+
     -   Some tools might also accept a file path as an argument:
+
         ```bash
         your-cli-tool --prompt-file prompts/git/web-dev-commit/prompt.txt
         ```
