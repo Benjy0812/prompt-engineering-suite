@@ -67,7 +67,7 @@ You can use these prompts by either:
 
    > **Note**: Replace `gemini ask`, `gemini generate`, `--model`, and `--prompt-file` with the actual commands and flags of your specific LLM CLI tool. Refer to your CLI's official documentation for precise usage.
 
-For more detailed instructions on using these prompts with specific CLI tools, please refer to `CLI_INSTRUCTIONS.md`.
+For more detailed instructions on using these prompts with specific CLI tools, please refer to `USAGE_INSTRUCTIONS.md`.
 
 ## Prerequisites
 
