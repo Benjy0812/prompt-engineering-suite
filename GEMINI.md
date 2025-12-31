@@ -10,9 +10,17 @@ text-based prompts designed to be used with large language models (LLMs) like
 Gemini. The primary goal is to standardize the output for common development and
 documentation tasks, such as generating Markdown files and Git commit messages.
 
-The core content is located in the `git/commit-prompts/` directory. There is
-also a legacy directory, `git/web-dev-commit/`, which contains an older version
-of a commit prompt.
+The current directory structure is as follows:
+
+- `CLI_INSTRUCTIONS.md`
+- `GEMINI.md`
+- `README.md`
+- `prompts/git/commit_message_prompt.txt`
+- `prompts/git/web-dev-commit/prompt.txt`
+- `prompts/git/web-dev-commit/README.md`
+- `prompts/markdown/markdown_relaxed_prompt.txt`
+- `prompts/markdown/markdown_strict_prompt.txt`
+- `prompts/markdown/README.md`
 
 ## Key Files
 
@@ -20,16 +28,16 @@ of a commit prompt.
   `markdownlint` style guide, defining the strict rules that generated Markdown
   should follow.
 
-- **`git/commit-prompts/README.md`**: This `README` file explains the contents
-  of the `commit-prompts` directory, which houses the main prompt collection. It
-  details the different prompts available and their intended use cases.
+- **`prompts/git/commit_message_prompt.txt`**: A global prompt for generating Git commit messages, applicable to any project, and updated with examples relevant to this prompt engineering suite.
+- **`prompts/git/web-dev-commit/prompt.txt`**: A prompt specifically for generating web development related commit messages.
+- **`prompts/git/web-dev-commit/README.md`**: Explanation for the `web-dev-commit` prompt.
 
-- **`git/commit-prompts/markdown_strict_prompt.txt`**: A prompt that instructs
+- **`prompts/markdown/markdown_strict_prompt.txt`**: A prompt that instructs
   the AI to act as an expert technical writer and generate Markdown that is
   fully compliant with a strict set of `markdownlint` rules. This is for
   producing clean, production-ready documentation.
 
-- **`git/commit-prompts/markdown_relaxed_prompt.txt`**: A prompt that also asks
+- **`prompts/markdown/markdown_relaxed_prompt.txt`**: A prompt that also asks
   the AI to generate Markdown, but with a more flexible and relaxed set of
   rules, prioritizing readability over strict linting compliance.
 

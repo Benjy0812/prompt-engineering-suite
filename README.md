@@ -1,100 +1,95 @@
-# Markdown Style Guide
+# Prompt Engineering Suite
 
-This document outlines the standards for creating clean, consistent, and valid
-Markdown files. Adhering to these guidelines ensures that our documentation is
-readable, maintainable, and professional.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Headings
+A curated collection of text-based prompts designed for Large Language Models (LLMs) like Gemini and Claude. This suite aims to standardize and enhance the output of LLMs for common development and documentation tasks, such as generating well-formatted Markdown files and consistent Git commit messages.
 
-- Heading levels must increment by one and should not be skipped.
-- The document must contain only one top-level heading (`#`).
-- Headings must start at the beginning of a line with a single space after the
-  `#` characters.
-- Do not add any trailing punctuation to headings.
-- Ensure headings are unique to avoid confusion.
-- Surround every heading with a single blank line.
+## Table of Contents
 
-## General Formatting
+- [Introduction](#introduction)
+- [Prompt Categories](#prompt-categories)
+  - [Markdown Generation Prompts](#markdown-generation-prompts)
+  - [Git Commit Message Prompts](#git-commit-message-prompts)
+- [Usage](#usage)
+- [Prerequisites](#prerequisites)
+- [Contributing](#contributing)
+- [License](#license)
 
-- Use spaces for indentation instead of hard tabs.
-- Remove any trailing spaces from the end of lines.
-- Avoid multiple consecutive blank lines.
-- End every file with a single newline character.
-- Wrap long lines of text to a reasonable length to improve readability.
+## Introduction
 
-## Lists
+In an era of increasing reliance on AI for development and content creation, maintaining consistency and quality is paramount. The Prompt Engineering Suite provides a robust set of expertly crafted prompts, allowing developers, technical writers, and content creators to leverage LLMs more effectively. By using these prompts, you can ensure that your generated content adheres to specific formatting standards and maintains a professional tone.
 
-- Use a single, consistent marker for unordered lists (`-`).
-- Use exactly one space after the dash for all list items.
-- Indent list items consistently at the same level.
-- Surround lists with a single blank line to separate them from other content.
+## Prompt Categories
 
-## Emphasis and Text
+### Markdown Generation Prompts
 
-- Use `*italic*` for italicized text and `**bold**` for bold text.
-- Do not use emphasis as a substitute for headings.
-- Avoid adding spaces inside emphasis markers.
+These prompts guide LLMs to produce Markdown output tailored for different levels of strictness and readability.
 
-## Links and Images
+- **`prompts/markdown/markdown_strict_prompt.txt`**:
+  This prompt instructs the AI to act as an expert technical writer, generating Markdown that is fully compliant with a strict set of `markdownlint` rules. Ideal for producing clean, production-ready documentation where formatting consistency is critical.
 
-- Do not use bare URLs; always use proper link syntax:
-  `[Descriptive Link Text](https://example.com)`.
-- Link text should clearly describe the destination.
-- All images must include descriptive alt text:
-  `![Alt text for image](path/to/image.png)`.
-- Use a consistent style for links, preferably inline.
-- Ensure all link fragments are valid.
+- **`prompts/markdown/markdown_relaxed_prompt.txt`**:
+  This prompt also asks the AI to generate Markdown, but with a more flexible and relaxed set of rules. It prioritizes readability and natural language flow over strict linting compliance, suitable for less formal documentation or quick drafts.
 
-## Code Blocks
+### Git Commit Message Prompts
 
-- Use fenced code blocks only; do not use indented code blocks.
-- Always specify a language for the block (e.g., `javascript`, `python`).
-- If no language is obvious, such as for plain text or pseudocode, use `text`.
-- Surround every fenced code block with blank lines.
-- Use triple backticks (```) consistently as the fence style.
-- Do not include spaces inside `inline code` spans.
+These prompts assist in generating standardized and informative Git commit messages.
 
-```markdown
-# Example Heading
+- **`prompts/git/commit_message_prompt.txt`**:
+  A global prompt for generating Git commit messages, applicable to any project. It has been updated with examples relevant to changes made within a prompt engineering project, promoting consistent and clear commit history.
 
-This is a paragraph.
+- **`prompts/git/web-dev-commit/prompt.txt`**:
+  A specialized prompt designed to help LLMs generate concise and meaningful Git commit messages, particularly for web development contexts. It encourages adherence to common commit message conventions, improving repository history clarity.
 
-- List item one
-- List item two
+## Usage
 
-This is some **bold** and *italic* text.
+The prompts within this repository are designed to be easily integrated with various Large Language Model (LLM) CLI tools (e.g., Gemini CLI, Claude Code CLI).
 
-```javascript
-function greet() {
-  console.log("Hello, World!");
-}
-```
-```
+You can use these prompts by either:
 
-## Tables
+1. **Copy-pasting the content:**
+   View the content of the desired prompt file (e.g., using `cat`) and paste it directly into your LLM CLI tool's prompt input.
 
-- Surround tables with blank lines.
-- Ensure column counts are consistent across all rows.
-- Align content within columns consistently using pipes (`|`).
+   ```bash
+   cat prompts/markdown/markdown_strict_prompt.txt
+   # Copy the output and paste into your LLM CLI tool.
+   gemini ask "PASTE_YOUR_PROMPT_HERE"
+   ```
 
-```markdown
-| Header 1 | Header 2 |
-| :--- | :--- |
-| Cell 1 | Cell 2 |
-| Cell 3 | Cell 4 |
-```
+2. **Piping the content (if supported by your CLI tool):**
+   Many modern LLM CLI tools support reading prompt content directly from a file or standard input.
 
-## Blockquotes
+   ```bash
+   cat prompts/markdown/markdown_strict_prompt.txt | gemini generate --model gemini-1.5-flash
+   # Or, if your CLI accepts a file path directly:
+   gemini generate --model gemini-1.5-flash --prompt-file prompts/markdown/markdown_strict_prompt.txt
+   ```
 
-- Use a single space after the `>` character.
-- Do not include blank lines within a single blockquote.
+   > **Note**: Replace `gemini ask`, `gemini generate`, `--model`, and `--prompt-file` with the actual commands and flags of your specific LLM CLI tool. Refer to your CLI's official documentation for precise usage.
 
-```markdown
-> This is a correctly formatted blockquote.
-```
+For more detailed instructions on using these prompts with specific CLI tools, please refer to `CLI_INSTRUCTIONS.md`.
 
-## Naming Conventions
+## Prerequisites
 
-- Use correct capitalization for proper names and technologies.
-- Examples: GitHub, Markdown, Node.js, JavaScript.
+To effectively use the prompts in this repository, you will need:
 
+- A configured and functional Large Language Model (LLM) CLI tool (e.g., [Google Gemini CLI](https://ai.google.dev/docs/gemini_api_overview), [Anthropic Claude CLI](https://docs.anthropic.com/claude/reference/claude-api)).
+- Basic familiarity with using command-line interfaces.
+
+## Contributing
+
+We welcome contributions to expand and improve this Prompt Engineering Suite! If you have well-crafted prompts that enhance LLM output for common development tasks, please consider submitting a pull request.
+
+To contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-prompt-name`).
+3. Add your prompt(s) to an appropriate category, or create a new one.
+4. Include a brief `README.md` within your new prompt directory explaining its purpose and usage.
+5. Commit your changes (`git commit -m 'feat: Add new awesome prompt'`).
+6. Push to the branch (`git push origin feature/your-prompt-name`).
+7. Open a pull request with a clear description of your contribution.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
