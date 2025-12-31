@@ -15,7 +15,7 @@ The current directory structure is as follows:
 - `CLI_INSTRUCTIONS.md`
 - `GEMINI.md`
 - `README.md`
-- `prompts/git/commit_message_prompt.txt`
+- `prompts/git/global_commit_message_prompt.txt`
 - `prompts/git/web-dev-commit/prompt.txt`
 - `prompts/git/web-dev-commit/README.md`
 - `prompts/markdown/markdown_relaxed_prompt.txt`
@@ -28,7 +28,7 @@ The current directory structure is as follows:
   `markdownlint` style guide, defining the strict rules that generated Markdown
   should follow.
 
-- **`prompts/git/commit_message_prompt.txt`**: A global prompt for generating Git commit messages, applicable to any project, and updated with examples relevant to this prompt engineering suite.
+- **`prompts/git/global_commit_message_prompt.txt`**: A global prompt for generating Git commit messages, applicable to any project, and updated with examples relevant to this prompt engineering suite.
 - **`prompts/git/web-dev-commit/prompt.txt`**: A prompt specifically for generating web development related commit messages.
 - **`prompts/git/web-dev-commit/README.md`**: Explanation for the `web-dev-commit` prompt.
 

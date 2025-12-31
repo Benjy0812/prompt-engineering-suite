@@ -35,7 +35,7 @@ These prompts guide LLMs to produce Markdown output tailored for different level
 
 These prompts assist in generating standardized and informative Git commit messages.
 
-- **`prompts/git/commit_message_prompt.txt`**:
+- **`prompts/git/global_commit_message_prompt.txt`**:
   A global prompt for generating Git commit messages, applicable to any project. It has been updated with examples relevant to changes made within a prompt engineering project, promoting consistent and clear commit history.
 
 - **`prompts/git/web-dev-commit/prompt.txt`**:
