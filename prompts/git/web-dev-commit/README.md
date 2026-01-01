@@ -1,35 +1,38 @@
-# Web Development Commit Message Generator AI Prompt
+# 🌐 Web Dev Commit Agent
 
-[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)
-[![Audience: Web Developers](https://img.shields.io/badge/Audience-Web%20Developers-blue)](https://github.com/)
+[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)  
+[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 
-This repository contains a **professional AI prompt** that generates **descriptive, context-aware Git commit messages** specifically for **web development projects**. The commit messages follow **Conventional Commits style** and can include **Git emojis** relevant to frontend, backend, API, and CI/CD changes.
+A specialized AI agent for web developers that automates the generation of stack-aware, professional commit messages.
 
----
+## 🚀 Overview
 
-## 📌 Features
+The **Web Dev Commit Agent** interprets changes across the full web stack—from CSS adjustments to API logic. It maps these changes to the [Conventional Commits](https://www.conventionalcommits.org/) standard, ensuring your project history is clean, semantic, and easy to navigate.
 
-- ✅ Generates commit messages for **frontend and backend changes**
-- ✅ Supports Conventional Commit types: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`, `perf`, `build`, `ci`
-- ✅ Includes **Git emojis** corresponding to commit type (optional but recommended)
-- ✅ Optional detailed description (≤ 72 characters per line)
-- ✅ Ready to copy-paste into `git commit -m`
-- ✅ Works for any web development stack (React, Vue, Angular, Node.js, Python, PHP, etc.)
+## ✨ Key Features
 
----
+- **Stack Sensitivity:** Recognizes the difference between a UI `style` change and a backend `refactor`.
+- **Auto-Scoping:** Detects affected modules (e.g., `auth`, `store`, `views`) based on file paths.
+- **Gitmoji Integration:** Enhances scannability with visual cues for different change types.
+- **Professional Standards:** Enforces the 50/72 character rule and imperative mood.
 
-## 🔍 Usage
+## 🛠 Usage
 
-1. Open `web-commit-prompt.md` (the AI prompt file).
-2. Copy the prompt into your AI interface.
-3. Provide the staged changes, diff, or project context.
-4. The AI will generate a commit message that includes:
-   - Short descriptive summary (≤ 50 characters)
-   - Optional detailed description
-   - Appropriate Git emojis based on change type
-5. Copy the generated message into your terminal:
+1. **Input:** Provide the output of `git diff` or a list of modified files.
+2. **Generation:** The agent produces a single, executable `git commit` command.
+3. **Execution:** Copy and paste directly into your terminal to maintain a perfect commit history.
 
-```bash
-git commit -m "<generated commit message>"
-```
+## 📊 Mapping Table
+
+| Stack Area       | Type    | Gitmoji |
+| :--------------- | :------ | :------ |
+| **Frontend/UI**  | `style` | 🎨      |
+| **Logic/API**    | `feat`  | ✨      |
+| **Dependencies** | `build` | 📦      |
+| **Optimization** | `perf`  | ⚡      |
+
+## ⚠️ Requirements
+
+- Best used with an AI CLI that can read local `git diff` output.
+- Assumes a standard web project structure (e.g., `/src`, `/api`, `/public`).

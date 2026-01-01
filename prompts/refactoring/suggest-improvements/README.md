@@ -1,50 +1,37 @@
-# Suggest Improvements AI Prompt
+# 📈 Project Improvement Agent
 
-[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)
-[![Audience: Developers](https://img.shields.io/badge/Audience-Developers-blue)](https://github.com/)
+[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)  
+[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 
-This repository contains a **professional AI prompt** that analyzes code, files, or projects and provides **structured, actionable suggestions for improvement**. The suggestions cover **code quality, performance, documentation, security, testing, and CI/CD**.
+An agentic AI prompt designed to act as an automated code reviewer and architectural consultant within your CLI workflow.
 
----
+## 🚀 Overview
 
-## 📌 Features
+The **Project Improvement Agent** delivers high-signal, actionable feedback on any codebase. It goes beyond simple linting by identifying architectural weaknesses, security risks, and performance gaps, providing clear "Before/After" examples to guide your refactoring process.
 
-- ✅ Provides actionable improvement suggestions for any project
-- ✅ Works with multiple programming languages and frameworks
-- ✅ Highlights **code quality, performance, and security improvements**
-- ✅ Suggests **documentation, testing, and CI/CD enhancements**
-- ✅ Outputs **Markdown-formatted reports**, ready for internal or public use
+## ✨ Key Features
 
----
+- **Full-Spectrum Analysis:** Covers quality, performance, security, and infrastructure.
+- **Actionable Refactors:** Provides direct code examples to illustrate suggested changes.
+- **CLI-First Design:** Optimized for terminal-based AI tools to provide instant feedback without manual copy-pasting.
+- **Context Awareness:** Automatically adjusts suggestions based on the detected language and framework.
 
-## 🔍 Usage
+## 🛠 Usage
 
-1. Open `suggest-improvements-prompt.md`.
-2. Copy the prompt into your AI system interface.
-3. Provide the input you want analyzed:
-   - Entire project/repository
-   - Specific module or file
-   - Individual code snippet
-4. The AI will generate a **structured improvement report** in Markdown, including:
-   - Code Quality
-   - Performance
-   - Documentation
-   - Security
-   - Testing & CI/CD
-5. Copy the report into your documentation, PR review, or team notes.
+1. **Analysis:** Run your CLI AI tool and provide the source file or directory list.
+2. **Review:** The agent generates a structured improvement report in Markdown.
+3. **Refactor:** Use the provided suggestions to update your code and resolve technical debt.
 
----
+## 📊 Evaluation Categories
 
-## 🧭 Recommendations
+| Category         | Focus Area                                       |
+| :--------------- | :----------------------------------------------- |
+| **Code Quality** | DRY principle, SOLID patterns, and naming.       |
+| **Performance**  | Algorithmic efficiency and resource management.  |
+| **Security**     | Vulnerability scanning and credential safety.    |
+| **CI/CD**        | Automation, containerization, and test coverage. |
 
-- Provide **context** (project structure, key files) for better suggestions.
-- Review AI-suggested improvements before implementation.
-- Use this prompt for **code review, refactoring, or team guidance**.
-- Keep Markdown formatting for readability in documentation or PR comments.
+## ⚠️ Requirements
 
----
-
-## 📄 License
-
-This prompt and repository content are released under the [MIT License](LICENSE).
+- For directory-wide analysis, ensure the AI has access to the file tree and core configuration files.

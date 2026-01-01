@@ -1,37 +1,27 @@
-# Global Commit Message Generator AI Prompt
+# 🤖 Global Git Commit Agent
 
 [![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)  
 [![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 
-This repository contains a **professional AI prompt** that generates **descriptive, context-aware Git commit messages** for any project or programming language. The commit messages follow **Conventional Commits style** and can include **Git emojis** when appropriate. It also outputs **ready-to-run Git commands** to stage and commit your changes.
+A context-aware automation agent designed to produce industry-standard commit messages and terminal commands instantly.
 
----
+## 🚀 Overview
 
-## 📌 Features
+The **Global Git Commit Agent** eliminates the friction of writing manual logs. By analyzing your actual code changes, it selects the appropriate [Conventional Commit](https://www.conventionalcommits.org/) type and [Gitmoji](https://gitmoji.dev/), providing you with a ready-to-run terminal command.
 
-- ✅ Generates professional, readable commit messages
-- ✅ Supports Conventional Commit types: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`, `perf`, `build`, `ci`
-- ✅ Includes **Git emojis** corresponding to commit type (optional but recommended)
-- ✅ Provides a concise summary and optional detailed description
-- ✅ Outputs **Git commands** (`git add`, `git commit -m`) ready to run
-- ✅ Works for **any project, framework, or language**
+## ✨ Key Features
 
----
+- **Contextual Intelligence:** Automatically detects if your change is a `fix`, `feat`, or `refactor` based on code diffs.
+- **Emoji-Enhanced Logs:** Uses visual markers to make your `git log` scannable and professional.
+- **CLI Optimized:** Outputs raw bash commands for immediate copy-pasting or execution.
+- **Best Practices Enforced:** Adheres strictly to the 50/72 character rule and imperative mood.
 
-## 🔍 Usage
+## 🛠 Usage
 
-1. Open `commit-prompt.md` (the AI prompt file).
-2. Copy the prompt into your AI interface.
-3. Provide the staged changes, diff, or project context.
-4. The AI will generate:
-   - A short, descriptive summary
-   - Optional detailed description (≤ 72 characters per line)
-   - Appropriate Git emojis based on commit type
-   - Git commands to stage and commit the changes
-5. Copy the generated commands into your terminal, for example:
-
-```bash
-git add <file1> <file2> ...
-git commit -m "<generated commit message>"
-```
+1. **Analysis:** Run your AI CLI (e.g., Gemini CLI) and provide the output of `git diff`.
+2. **Command Generation:** The agent will return a block like:
+   ```bash
+   git add -A
+   git commit -m "fix(ui): 🐛 resolve z-index overlap on mobile header"
+   ```

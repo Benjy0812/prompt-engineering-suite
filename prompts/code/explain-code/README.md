@@ -1,51 +1,37 @@
-# Repository & Code Explainer AI Prompt
+# 📖 Repository & Code Explainer
 
-[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)
-[![Audience: Developers](https://img.shields.io/badge/Audience-Developers-blue)](https://github.com/)
+[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)  
+[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 
-This repository contains a **professional AI prompt** that generates **structured explanations and documentation** for codebases, individual files, or specific modules. It produces **Markdown-ready outputs** suitable for README files, internal documentation, onboarding, or code review.
+An agentic AI prompt designed to transform complex source code into structured, professional-grade documentation.
 
----
+## 🚀 Overview
 
-## 📌 Features
+The **Repository Explainer** functions as a virtual Lead Developer. It goes beyond simple code comments to explain the "Big Picture"—mapping how different files interact, identifying the tech stack, and providing clear setup instructions for new contributors.
 
-- ✅ Generates clear **project overviews**  
-- ✅ Explains **individual files, modules, classes, and functions**  
-- ✅ Highlights **dependencies, structure, and key interactions**  
-- ✅ Produces **usage instructions** if applicable  
-- ✅ Outputs **Markdown-formatted documentation**  
-- ✅ Works with **any programming language** or project type  
+## ✨ Key Features
 
----
+- **Automated Stack Analysis:** Detects entry points and dependencies instantly.
+- **Dependency Mapping:** Visualizes the relationships between internal modules.
+- **Onboarding Optimized:** Structured specifically to help new developers understand a codebase in minutes.
+- **Architectural Insights:** Identifies design patterns and suggests technical improvements.
 
-## 🔍 Usage
+## 🛠 Usage
 
-1. Open `repo-explainer-prompt.md` (the AI prompt file).  
-2. Copy the prompt into your AI system interface.  
-3. Provide the input you want explained:
-   - Entire repository/folder  
-   - Specific module or file  
-   - Code snippet or function  
-4. The AI will generate a **structured Markdown explanation** including:
-   - Project overview  
-   - File/module explanations  
-   - Key functions/classes  
-   - Usage instructions  
-   - Notes and recommendations  
-5. Copy the output into your documentation or README.
+1. **Context Collection:** If using a CLI agent, it will automatically run `ls` and `cat`. For standard AI, paste your file tree and core files.
+2. **Generation:** The agent will output a clean, lint-compliant Markdown document.
+3. **Deployment:** Save the resulting text as `EXPLAINER.md` or use it to populate your project Wiki.
 
----
+## 📊 Documentation Structure
 
-## 🧭 Recommendations
+| Section        | Focus                                          |
+| :------------- | :--------------------------------------------- |
+| **Overview**   | High-level project goal and stack.             |
+| **Structure**  | Folder-by-folder responsibility mapping.       |
+| **Core Logic** | Explanation of complex functions/classes.      |
+| **Usage**      | Practical commands for installation/execution. |
 
-- Provide **as much context as possible** (project structure, key files, etc.) for better explanations.  
-- Lint Markdown output to ensure formatting consistency.  
-- Use this prompt for **documentation, onboarding, or code review summaries**.  
-- Maintain professional tone when integrating AI-generated explanations into public documentation.
+## ⚠️ Requirements
 
----
-
-## 📄 License
-
-This prompt and repository content are released under the [MIT License](LICENSE).
+- Best results are achieved when providing configuration files (e.g., `package.json`, `go.mod`, `pyproject.toml`).

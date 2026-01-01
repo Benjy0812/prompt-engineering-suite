@@ -1,46 +1,39 @@
-# Dockerfile Generator AI Prompt
+# 🐳 Docker Architect Agent
 
-[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)
-[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)
+[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)  
+[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 
-This repository contains a **professional AI prompt** that generates **production-ready Docker setups** for any software project. It can produce a Dockerfile, optional docker-compose.yml, and instructions for building and running the project in containers.
+A high-performance AI agentic prompt designed to automate the creation of secure, optimized, and multi-stage Docker configurations.
 
----
+## 🚀 Overview
 
-## 📌 Features
+The **Docker Architect Agent** acts as a virtual DevOps specialist. Instead of generic templates, it analyzes your specific project structure to implement industry best practices—such as layer caching, multi-stage builds, and non-root security—ensuring your images are production-ready from the start.
 
-- ✅ Generates a **Dockerfile** optimized for project language and dependencies
-- ✅ Optionally generates **docker-compose.yml** for multi-service projects
-- ✅ Includes best practices: minimal base images, caching, environment variables, ports, volumes
-- ✅ Strict, professional Markdown formatting for all outputs
-- ✅ Clear, concise instructions for building and running Docker containers
+## ✨ Key Features
 
----
+- **Smart Stack Detection:** Automatically configures environments for Node.js, Python, Go, Rust, Java, and more.
+- **Multi-Stage Optimization:** Drastically reduces final image footprint by stripping away build-time dependencies.
+- **Security-First Approach:** Implements non-privileged users and secure defaults to minimize attack surfaces.
+- **Layer-Cache Efficiency:** Orders instructions to ensure faster rebuilds during development.
+- **Compose Ready:** Handles multi-service orchestration logic when dependencies are detected.
 
-## 🔍 Usage
+## 🛠 Usage
 
-1. Open `docker-prompt.md` (or the main prompt file).
-2. Copy the prompt into your AI system interface.
-3. Provide the project structure or repository path as input.
-4. The AI will generate:
-   - `Dockerfile`
-   - Optional `docker-compose.yml` (if multi-service)
-   - Markdown instructions for usage
-5. Review and copy the generated files to your project directory.
-6. Build and run the Docker container(s) as instructed.
+1. **Context Acquisition:** Provide the agent with your file list and core configuration files (e.g., `cat package.json`).
+2. **Generation:** The agent provides copy-pasteable `Dockerfile`, `.dockerignore`, and `docker-compose.yml` files.
+3. **Execution:** Use the generated "How to Run" section to build and deploy your container instantly.
 
----
+## 📊 Container Standards
 
-## 🧭 Recommendations
+| Feature        | Implementation                                            |
+| :------------- | :-------------------------------------------------------- |
+| **Base Image** | Minimal footprints (Alpine, Distroless, or Slim).         |
+| **User**       | Non-root execution for runtime security.                  |
+| **Caching**    | Dependency installation isolated from source code copies. |
+| **Cleanup**    | Removal of temporary build artifacts and package caches.  |
 
-- Keep project dependencies pinned for reproducibility.
-- Verify generated Dockerfiles using `docker build` before production deployment.
-- Use minimal images to reduce container size and attack surface.
-- Lint Markdown outputs if included in documentation.
+## ⚠️ Requirements
 
----
-
-## 📄 License
-
-This prompt and repository content are released under the [MIT License](LICENSE).
+- Valid dependency manifest in the root directory.
+- Docker Engine 20.10+ for multi-stage support.

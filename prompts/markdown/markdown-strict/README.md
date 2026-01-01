@@ -1,44 +1,38 @@
-# Strict Markdown AI Prompt
+# 🛠️ Markdown Compliance Agent
 
 [![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)
-[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)
+[![Audience: Technical Writers](https://img.shields.io/badge/Audience-Technical%20Writers-blue)](https://github.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 
-This repository contains a **strict Markdown AI prompt** that produces Markdown fully compliant with **Markdownlint rules MD001–MD060**. It is suitable for professional documentation, internal manuals, or technical writing.
+A specialized AI assistant designed to generate documentation that strictly adheres to Markdownlint standards MD001–MD060.
 
----
+## 🚀 Overview
 
-## Features
+The **Markdown Compliance Agent** ensures that all generated text is ready for professional environments where automated linting is enforced. It eliminates common formatting errors—such as skipped heading levels, bare URLs, and improper list indentation—to provide clean, structured, and parseable files.
 
-- Produces Markdown compliant with **MD001–MD060** rules.
-- Strict ATX headings with proper increment and spacing.
-- Consistent unordered (`-`) and ordered (`1.`) lists.
-- Fenced code blocks with language specified and surrounded by blank lines.
-- Tables with correct pipe alignment and spacing.
-- Properly formatted links and images with descriptive text and references.
-- No inline HTML or bare URLs.
-- No trailing spaces, hard tabs, or multiple blank lines.
-- Professional, neutral tone suitable for documentation.
+## ✨ Key Features
 
----
+- **Strict Hierarchy:** Enforces logical heading increments for better document navigation.
+- **Lint-Ready Output:** Formats tables, lists, and code blocks to pass CI/CD documentation checks.
+- **Zero Decorative Noise:** Removes emojis and visual fluff to focus on high-signal technical content.
+- **Clean Spacing:** Automatically manages blank lines and trailing whitespace for repository cleanliness.
 
-## Usage
+## 🛠 Usage
 
-1. Open `prompt.md`.
-2. Copy the entire content into your AI system prompt.
-3. Generate Markdown for your documentation or internal guides.
-4. Verify output with Markdownlint to ensure compliance.
+1. **System Integration:** Apply the **Optimized Prompt** to your AI settings when drafting official docs.
+2. **Doc Generation:** Use the agent to write READMEs, internal wikis, or API references.
+3. **Validation:** The output is designed to return zero errors when run through standard Markdown linting tools.
 
----
+## 📊 Compliance Standards
 
-## Recommendations
+| Feature      | Lint Standard | Requirement                                  |
+| :----------- | :------------ | :------------------------------------------- |
+| **Headings** | MD001/MD003   | Sequential ATX style only.                   |
+| **URLs**     | MD034         | No bare links; must use `[text](url)`.       |
+| **Code**     | MD040         | Language must be specified in fenced blocks. |
+| **Spacing**  | MD009/MD012   | No trailing spaces or consecutive blanks.    |
 
-- Keep **emoji and badges minimal**; use only for status indicators if needed.
-- Always **lint generated Markdown** using Markdownlint before publishing.
-- Follow the **structure in prompt.md** for consistent, compliant output.
+## ⚠️ Requirements
 
----
-
-## License
-
-This prompt and repository content are released under the [MIT License](LICENSE).
+- Best used in repositories with automated documentation pipelines.
+- Requires a Markdown-compatible viewer for proper structural rendering.
