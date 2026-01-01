@@ -21,6 +21,7 @@ The **Global Git Commit Agent** eliminates the friction of writing manual logs. 
 
 1. **Analysis:** Run your AI CLI (e.g., Gemini CLI) and provide the output of `git diff`.
 2. **Command Generation:** The agent will return a block like:
+
    ```bash
    git add -A
    git commit -m "fix(ui): 🐛 resolve z-index overlap on mobile header"

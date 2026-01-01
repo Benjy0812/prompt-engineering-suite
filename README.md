@@ -90,6 +90,47 @@ To contribute:
 6. Push to the branch (`git push origin feature/your-prompt-name`).
 7. Open a pull request with a clear description of your contribution.
 
+## Repository Structure
+
+```text
+C:.
+│   .gitignore
+│   GEMINI.md
+│   LICENSE
+│   README.md
+│   USAGE_INSTRUCTIONS.md
+│
+├───project-specific
+│   ├───generate-commit-message.md
+│   ├───generate-commit-message.README.md
+│   ├───generate-prompt.md
+│   └───generate-prompt.README.md
+│
+└───prompts
+    ├───code
+    │   ├───explain-code.md
+    │   └───explain-code.README.md
+    ├───git
+    │   ├───global-commit.md
+    │   ├───global-commit.README.md
+    │   ├───web-dev-commit.md
+    │   └───web-dev-commit.README.md
+    ├───iac
+    │   ├───generate-dockerfile.md
+    │   └───generate-dockerfile.README.md
+    ├───markdown
+    │   ├───markdown-relaxed.md
+    │   ├───markdown-relaxed.README.md
+    │   ├───markdown-strict.md
+    │   └───markdown-strict.README.md
+    ├───refactoring
+    │   ├───suggest-improvements.md
+    │   └───suggest-improvements.README.md
+    └───testing
+        ├───generate-unit-tests.md
+        └───generate-unit-tests.README.md
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

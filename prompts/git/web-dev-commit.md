@@ -2,7 +2,7 @@
 
 Analyze the provided `git diff` or file changes to generate a stack-aware Conventional Commit message.
 
-## Rules:
+## Rules
 
 1. **Format:** `<type>(<scope>): <gitmoji> <summary>`
 2. **Contextual Types:**
@@ -16,12 +16,12 @@ Analyze the provided `git diff` or file changes to generate a stack-aware Conven
    - `build`/`chore` (📦/🔧): Dependencies, build tools, maintenance.
 3. **Standards:** Imperative mood ("Add", not "Added"). Summary < 50 chars. Body wrap at 72 chars.
 
-## Constraints:
+## Constraints
 
 - Output ONLY a single `git` fenced code block.
 - No conversational intro/outro.
 - Identify the scope (e.g., `api`, `auth`, `ui`, `deps`) automatically from file paths.
 
-## Example:
+## Example
 
 git commit -m "style(navbar): 🎨 improve mobile responsiveness"
