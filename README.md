@@ -6,14 +6,14 @@ A curated collection of text-based prompts designed for Large Language Models (L
 
 ## Table of Contents
 
--   [Introduction](#introduction)
--   [Prompt Categories](#prompt-categories)
-    -   [Markdown Generation Prompts](#markdown-generation-prompts)
-    -   [Git Commit Message Prompts](#git-commit-message-prompts)
--   [Usage](#usage)
--   [Prerequisites](#prerequisites)
--   [Contributing](#contributing)
--   [License](#license)
+- [Introduction](#introduction)
+- [Prompt Categories](#prompt-categories)
+  - [Markdown Generation Prompts](#markdown-generation-prompts)
+  - [Git Commit Message Prompts](#git-commit-message-prompts)
+- [Usage](#usage)
+- [Prerequisites](#prerequisites)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Introduction
 
@@ -25,21 +25,21 @@ In an era of increasing reliance on AI for development and content creation, mai
 
 These prompts guide LLMs to produce Markdown output tailored for different levels of strictness and readability.
 
--   **`prompts/markdown/markdown_strict_prompt.txt`**:
-    This prompt instructs the AI to act as an expert technical writer, generating Markdown that is fully compliant with a strict set of `markdownlint` rules. Ideal for producing clean, production-ready documentation where formatting consistency is critical.
+- **`prompts/markdown/markdown_strict_prompt.txt`**:
+  This prompt instructs the AI to act as an expert technical writer, generating Markdown that is fully compliant with a strict set of `markdownlint` rules. Ideal for producing clean, production-ready documentation where formatting consistency is critical.
 
--   **`prompts/markdown/markdown_relaxed_prompt.txt`**:
-    This prompt also asks the AI to generate Markdown, but with a more flexible and relaxed set of rules. It prioritizes readability and natural language flow over strict linting compliance, suitable for less formal documentation or quick drafts.
+- **`prompts/markdown/markdown_relaxed_prompt.txt`**:
+  This prompt also asks the AI to generate Markdown, but with a more flexible and relaxed set of rules. It prioritizes readability and natural language flow over strict linting compliance, suitable for less formal documentation or quick drafts.
 
 ### Git Commit Message Prompts
 
 These prompts assist in generating standardized and informative Git commit messages.
 
--   **`prompts/git/global_commit_message_prompt.txt`**:
-    A global prompt for generating Git commit messages, applicable to any project. It has been updated with examples relevant to changes made within a prompt engineering project, promoting consistent and clear commit history.
+- **`prompts/git/global_commit_message_prompt.txt`**:
+  A global prompt for generating Git commit messages, applicable to any project. It has been updated with examples relevant to changes made within a prompt engineering project, promoting consistent and clear commit history.
 
--   **`prompts/git/web-dev-commit/prompt.txt`**:
-    A specialized prompt designed to help LLMs generate concise and meaningful Git commit messages, particularly for web development contexts. It encourages adherence to common commit message conventions, improving repository history clarity.
+- **`prompts/git/web-dev-commit/prompt.txt`**:
+  A specialized prompt designed to help LLMs generate concise and meaningful Git commit messages, particularly for web development contexts. It encourages adherence to common commit message conventions, improving repository history clarity.
 
 ## Usage
 
@@ -47,7 +47,7 @@ The prompts within this repository are designed to be easily integrated with var
 
 You can use these prompts by either:
 
-1.  **Copy-pasting the content:**
+1. **Copy-pasting the content:**
     View the content of the desired prompt file (e.g., using `cat`) and paste it directly into your LLM CLI tool's prompt input.
 
     ```bash
@@ -56,7 +56,7 @@ You can use these prompts by either:
     gemini ask "PASTE_YOUR_PROMPT_HERE"
     ```
 
-2.  **Piping the content (if supported by your CLI tool):**
+2. **Piping the content (if supported by your CLI tool):**
     Many modern LLM CLI tools support reading prompt content directly from a file or standard input.
 
     ```bash
@@ -73,8 +73,8 @@ For more detailed instructions on using these prompts with specific CLI tools, p
 
 To effectively use the prompts in this repository, you will need:
 
--   A configured and functional Large Language Model (LLM) CLI tool (e.g., [Google Gemini CLI](https://ai.google.dev/docs/gemini_api_overview), [Anthropic Claude CLI](https://docs.anthropic.com/claude/reference/claude-api)).
--   Basic familiarity with using command-line interfaces.
+- A configured and functional Large Language Model (LLM) CLI tool (e.g., [Google Gemini CLI](https://ai.google.dev/docs/gemini_api_overview), [Anthropic Claude CLI](https://docs.anthropic.com/claude/reference/claude-api)).
+- Basic familiarity with using command-line interfaces.
 
 ## Contributing
 
@@ -82,13 +82,13 @@ We welcome contributions to expand and improve this Prompt Engineering Suite! If
 
 To contribute:
 
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/your-prompt-name`).
-3.  Add your prompt(s) to an appropriate category, or create a new one.
-4.  Include a brief `README.md` within your new prompt directory explaining its purpose and usage.
-5.  Commit your changes (`git commit -m 'feat: Add new awesome prompt'`).
-6.  Push to the branch (`git push origin feature/your-prompt-name`).
-7.  Open a pull request with a clear description of your contribution.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-prompt-name`).
+3. Add your prompt(s) to an appropriate category, or create a new one.
+4. Include a brief `README.md` within your new prompt directory explaining its purpose and usage.
+5. Commit your changes (`git commit -m 'feat: Add new awesome prompt'`).
+6. Push to the branch (`git push origin feature/your-prompt-name`).
+7. Open a pull request with a clear description of your contribution.
 
 ## License
 

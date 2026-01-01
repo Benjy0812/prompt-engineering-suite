@@ -8,29 +8,29 @@ The repository, named "Prompt Engineering Suite," is a curated collection of tex
 
 The current directory structure is as follows:
 
--   `USAGE_INSTRUCTIONS.md`
--   `GEMINI.md`
--   `README.md`
--   `prompts/git/global_commit_message_prompt.txt`
--   `prompts/git/web-dev-commit/prompt.txt`
--   `prompts/git/web-dev-commit/README.md`
--   `prompts/markdown/markdown_relaxed_prompt.txt`
--   `prompts/markdown/markdown_strict_prompt.txt`
--   `prompts/markdown/README.md`
+- `USAGE_INSTRUCTIONS.md`
+- `GEMINI.md`
+- `README.md`
+- `prompts/git/global_commit_message_prompt.txt`
+- `prompts/git/web-dev-commit/prompt.txt`
+- `prompts/git/web-dev-commit/README.md`
+- `prompts/markdown/markdown_relaxed_prompt.txt`
+- `prompts/markdown/markdown_strict_prompt.txt`
+- `prompts/markdown/README.md`
 
 ## Key Files
 
--   **`README.md`**: The main `README` file serves as a comprehensive `markdownlint` style guide, defining the strict rules that generated Markdown should follow.
+- **`README.md`**: The main `README` file serves as a comprehensive `markdownlint` style guide, defining the strict rules that generated Markdown should follow.
 
--   **`prompts/git/global_commit_message_prompt.txt`**: A global prompt for generating Git commit messages, applicable to any project, and updated with examples relevant to this prompt engineering suite.
--   **`prompts/git/web-dev-commit/prompt.txt`**: A prompt specifically for generating web development related commit messages.
--   **`prompts/git/web-dev-commit/README.md`**: Explanation for the `web-dev-commit` prompt.
+- **`prompts/git/global_commit_message_prompt.txt`**: A global prompt for generating Git commit messages, applicable to any project, and updated with examples relevant to this prompt engineering suite.
+- **`prompts/git/web-dev-commit/prompt.txt`**: A prompt specifically for generating web development related commit messages.
+- **`prompts/git/web-dev-commit/README.md`**: Explanation for the `web-dev-commit` prompt.
 
--   **`prompts/markdown/markdown_strict_prompt.txt`**: A prompt that instructs the AI to act as an expert technical writer and generate Markdown that is fully compliant with a strict set of `markdownlint` rules. This is for producing clean, production-ready documentation.
+- **`prompts/markdown/markdown_strict_prompt.txt`**: A prompt that instructs the AI to act as an expert technical writer and generate Markdown that is fully compliant with a strict set of `markdownlint` rules. This is for producing clean, production-ready documentation.
 
--   **`prompts/markdown/markdown_relaxed_prompt.txt`**: A prompt that also asks the AI to generate Markdown, but with a more flexible and relaxed set of rules, prioritizing readability over strict linting compliance.
+- **`prompts/markdown/markdown_relaxed_prompt.txt`**: A prompt that also asks the AI to generate Markdown, but with a more flexible and relaxed set of rules, prioritizing readability over strict linting compliance.
 
--   **`USAGE_INSTRUCTIONS.md`**: This file contains the instructions for the AI agent itself, defining how it should analyze a directory and generate this `GEMINI.md` file.
+- **`USAGE_INSTRUCTIONS.md`**: This file contains the instructions for the AI agent itself, defining how it should analyze a directory and generate this `GEMINI.md` file.
 
 ## Usage
 
