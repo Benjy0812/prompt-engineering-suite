@@ -2,7 +2,7 @@
 
 [![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)  
 [![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
+[![License: OpenRAIL-S](https://img.shields.io/badge/License-OpenRAIL--S-yellow.svg)](../../LICENSE.md)
 
 An agentic AI prompt designed to transform complex source code into structured, professional-grade documentation.
 

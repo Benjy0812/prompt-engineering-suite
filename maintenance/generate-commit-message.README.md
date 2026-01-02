@@ -2,7 +2,7 @@
 
 [![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)  
 [![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
+[![License: OpenRAIL-S](https://img.shields.io/badge/License-OpenRAIL--S-yellow.svg)](../LICENSE.md)
 
 A specialized Git automation agent tailored for managing prompt engineering repositories and documentation workflows.
 

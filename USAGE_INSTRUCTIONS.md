@@ -30,7 +30,7 @@ ai-tool --prompt prompts/git/web-dev-commit/prompt.md
 C:.
 │   .gitignore
 │   GEMINI.md
-│   LICENSE
+│   LICENSE.md
 │   README.md
 │   USAGE_INSTRUCTIONS.md
 │

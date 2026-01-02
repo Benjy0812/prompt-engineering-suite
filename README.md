@@ -1,6 +1,6 @@
 # Prompt Engineering Suite
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: OpenRAIL-S](https://img.shields.io/badge/License-OpenRAIL--S-yellow.svg)](LICENSE.md)
 
 A curated collection of text-based prompts designed for Large Language Models (LLMs) like Gemini and Claude. This suite aims to standardize and enhance the output of LLMs for common development and documentation tasks, such as generating well-formatted Markdown files and consistent Git commit messages.
 
@@ -96,7 +96,7 @@ To contribute:
 C:.
 │   .gitignore
 │   GEMINI.md
-│   LICENSE
+│   LICENSE.md
 │   README.md
 │   USAGE_INSTRUCTIONS.md
 │
@@ -133,4 +133,4 @@ C:.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the OpenRAIL-S License - see the [LICENSE.md](LICENSE.md) file for details.
