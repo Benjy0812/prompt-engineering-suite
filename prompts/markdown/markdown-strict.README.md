@@ -25,12 +25,12 @@ The **Markdown Compliance Agent** helps ensure that generated text is well-struc
 
 ## 📊 Recommendations
 
-| Feature      | Focus Area | Description                                  |
-| :----------- | :--------- | :------------------------------------------- |
-| **Headings** | Structure  | Sequential ATX style for clear hierarchy.     |
-| **URLs**     | Linking    | Standard Markdown link syntax.               |
-| **Code**     | Clarity    | Specified languages in fenced blocks.        |
-| **Spacing**  | Layout     | Clean separation between blocks.             |
+| Feature      | Focus Area | Description                               |
+| :----------- | :--------- | :---------------------------------------- |
+| **Headings** | Structure  | Sequential ATX style for clear hierarchy. |
+| **URLs**     | Linking    | Standard Markdown link syntax.            |
+| **Code**     | Clarity    | Specified languages in fenced blocks.     |
+| **Spacing**  | Layout     | Clean separation between blocks.          |
 
 ## ⚠️ Requirements
 

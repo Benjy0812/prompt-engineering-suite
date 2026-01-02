@@ -25,12 +25,12 @@ The **Prompt Architect Agent** is a meta-prompt. It uses senior-level engineerin
 
 ## 📊 Quality Recommendations
 
-| Rule            | Implementation                                   |
-| :-------------- | :----------------------------------------------- |
-| **Hierarchy**   | Sequential headers (`#`, `##`, `###`).           |
-| **Formatting**  | Fenced code blocks with language hints.          |
-| **Variables**   | Standardized `[Bracketed]` placeholders.         |
-| **Layout**      | Clean separation between distinct sections.       |
+| Rule           | Implementation                              |
+| :------------- | :------------------------------------------ |
+| **Hierarchy**  | Sequential headers (`#`, `##`, `###`).      |
+| **Formatting** | Fenced code blocks with language hints.     |
+| **Variables**  | Standardized `[Bracketed]` placeholders.    |
+| **Layout**     | Clean separation between distinct sections. |
 
 ## ⚠️ Requirements
 

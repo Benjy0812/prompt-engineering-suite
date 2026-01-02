@@ -25,11 +25,11 @@ The **Project Improvement Agent** delivers high-signal, actionable feedback on a
 
 ## 📊 Evaluation Categories
 
-| Category         | Focus Area                                       |
-| :--------------- | :----------------------------------------------- |
-| **Code Quality** | DRY principle, SOLID patterns, and naming.       |
-| **Performance**  | Algorithmic efficiency and resource management.  |
-| **Security**     | Vulnerability scanning and credential safety.    |
+| Category         | Focus Area                                          |
+| :--------------- | :-------------------------------------------------- |
+| **Code Quality** | DRY principle, SOLID patterns, and naming.          |
+| **Performance**  | Algorithmic efficiency and resource management.     |
+| **Security**     | Vulnerability scanning and credential safety.       |
 | **CI/CD**        | Modernization, containerization, and test coverage. |
 
 ## ⚠️ Requirements
