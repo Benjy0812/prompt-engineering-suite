@@ -48,24 +48,24 @@ The prompts within this repository are designed to be easily integrated with var
 You can use these prompts by either:
 
 1. **Copy-pasting the content:**
-    View the content of the desired prompt file (e.g., using `cat`) and paste it directly into your LLM CLI tool's prompt input.
+   View the content of the desired prompt file (e.g., using `cat`) and paste it directly into your LLM CLI tool's prompt input.
 
-    ```bash
-    cat prompts/markdown/markdown_strict_prompt.txt
-    # Copy the output and paste into your LLM CLI tool.
-    gemini ask "PASTE_YOUR_PROMPT_HERE"
-    ```
+   ```bash
+   cat prompts/markdown/markdown_strict_prompt.txt
+   # Copy the output and paste into your LLM CLI tool.
+   gemini ask "PASTE_YOUR_PROMPT_HERE"
+   ```
 
 2. **Piping the content (if supported by your CLI tool):**
-    Many modern LLM CLI tools support reading prompt content directly from a file or standard input.
+   Many modern LLM CLI tools support reading prompt content directly from a file or standard input.
 
-    ```bash
-    cat prompts/markdown/markdown_strict_prompt.txt | gemini generate --model gemini-1.5-flash
-    # Or, if your CLI accepts a file path directly:
-    gemini generate --model gemini-1.5-flash --prompt-file prompts/markdown/markdown_strict_prompt.txt
-    ```
+   ```bash
+   cat prompts/markdown/markdown_strict_prompt.txt | gemini generate --model gemini-1.5-flash
+   # Or, if your CLI accepts a file path directly:
+   gemini generate --model gemini-1.5-flash --prompt-file prompts/markdown/markdown_strict_prompt.txt
+   ```
 
-    > **Note**: Replace `gemini ask`, `gemini generate`, `--model`, and `--prompt-file` with the actual commands and flags of your specific LLM CLI tool. Refer to your CLI's official documentation for precise usage.
+   > **Note**: Replace `gemini ask`, `gemini generate`, `--model`, and `--prompt-file` with the actual commands and flags of your specific LLM CLI tool. Refer to your CLI's official documentation for precise usage.
 
 For more detailed instructions on using these prompts with specific CLI tools, please refer to `USAGE_INSTRUCTIONS.md`.
 

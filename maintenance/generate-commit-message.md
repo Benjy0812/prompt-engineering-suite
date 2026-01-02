@@ -2,7 +2,7 @@
 
 Analyze `git status` and `git diff` to generate a two-tier commit message specific to prompt engineering.
 
-## Rules:
+## Rules
 
 1. **Summary Line:** `<gitmoji> <type>: <short_summary>`
    - ✨ `feat`: New prompt or logic.
@@ -13,12 +13,12 @@ Analyze `git status` and `git diff` to generate a two-tier commit message specif
 2. **Detail List:** Provide a file-level breakdown using Gitmojis.
 3. **Style:** Imperative mood, concise, no conversational filler.
 
-## Constraints:
+## Constraints
 
 - Output ONLY the shell commands (`git add` and `git commit`).
 - Use double quotes for the commit message.
 
-## Example Output:
+## Example Output
 
 git add -A
 git commit -m "feat: ✨ add unit test generator
