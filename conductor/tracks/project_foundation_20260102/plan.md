@@ -3,12 +3,13 @@
 ## Phase 1: Preparation & Setup [checkpoint: c154c87]
 - [x] Task: Audit existing prompts and identify missing documentation.
 - [x] Task: Configure Prettier for the repository.
+- [x] Task: Add .gitignore for node_modules.
 - [ ] Task: Conductor - User Manual Verification 'Preparation & Setup' (Protocol in workflow.md)
 
 ## Phase 2: Standardization - Code & Git Prompts
-- [ ] Task: Standardize `prompts/code/explain-code.md` and verify output.
-- [ ] Task: Standardize `prompts/git/global-commit.md` and `prompts/git/web-dev-commit.md`.
-- [ ] Task: Ensure READMEs exist for Code and Git categories.
+- [x] Task: Standardize `prompts/code/explain-code.md` and verify output.
+- [x] Task: Standardize `prompts/git/global-commit.md` and `prompts/git/web-dev-commit.md`.
+- [~] Task: Ensure READMEs exist for Code and Git categories.
 - [ ] Task: Conductor - User Manual Verification 'Standardization - Code & Git Prompts' (Protocol in workflow.md)
 
 ## Phase 3: Standardization - IaC & Refactoring Prompts
