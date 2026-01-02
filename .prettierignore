@@ -1,0 +1,5 @@
+node_modules
+.git
+conductor/tracks/*/plan.md
+conductor/tracks/*/spec.md
+# Add other files to ignore if needed

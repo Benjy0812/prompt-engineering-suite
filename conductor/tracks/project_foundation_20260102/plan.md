@@ -1,8 +1,8 @@
 # Track Plan: Project Foundation
 
-## Phase 1: Preparation & Setup
-- [ ] Task: Audit existing prompts and identify missing documentation.
-- [ ] Task: Configure Prettier for the repository.
+## Phase 1: Preparation & Setup [checkpoint: c154c87]
+- [x] Task: Audit existing prompts and identify missing documentation.
+- [x] Task: Configure Prettier for the repository.
 - [ ] Task: Conductor - User Manual Verification 'Preparation & Setup' (Protocol in workflow.md)
 
 ## Phase 2: Standardization - Code & Git Prompts

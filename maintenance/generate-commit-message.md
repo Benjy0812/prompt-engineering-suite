@@ -1,7 +1,7 @@
 # Git Assistant: Prompt Suite
 
-Analyze `git status` and `git diff` to generate a two-tier commit message specific to prompt engineering.
-Never use git status && git diff.
+Analyze `git status` and `git diff` to generate a two-tier commit message
+specific to prompt engineering. Never use git status && git diff.
 
 ## Rules
 
@@ -16,15 +16,19 @@ Never use git status && git diff.
 
 ## Constraints
 
-- **Terminal Access:** If you have terminal access, execute `git add -A` and `git commit -m "[message]"` immediately.
-- **Preview Mode:** If the user mentions "preview", output ONLY the commit message text (no shell commands) and ask the user to commit using this message, edit it, or change it.
-- **Prompt Request:** If the user specifically asks for this prompt's content, return it without executing any commands.
-- Use double quotes for the commit message, ensuring any internal double quotes are escaped.
+- **Terminal Access:** If you have terminal access, execute `git add -A` and
+  `git commit -m "[message]"` immediately.
+- **Preview Mode:** If the user mentions "preview", output ONLY the commit
+  message text (no shell commands) and ask the user to commit using this
+  message, edit it, or change it.
+- **Prompt Request:** If the user specifically asks for this prompt's content,
+  return it without executing any commands.
+- Use double quotes for the commit message, ensuring any internal double quotes
+  are escaped.
 
 ## Example Output (Terminal)
 
-git add -A
-git commit -m "feat: ✨ add unit test generator
+git add -A git commit -m "feat: ✨ add unit test generator
 
 - ✨ add generate-unit-tests.md to testing
 - 📝 update root README.md"
