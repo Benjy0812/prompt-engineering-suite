@@ -22,6 +22,12 @@ jobs:
           prettier_options: "--check **/*.md"
 
       # Step 2: Lint structure with markdownlint
+      - name: Setup Node.js for markdownlint
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install markdownlint dependencies
+        run: npm install markdownlint-cli2-config-prettier
       - name: Run Markdownlint
         uses: davidanson/markdownlint-cli2-action@v17
         with:
