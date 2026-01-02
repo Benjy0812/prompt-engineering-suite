@@ -30,10 +30,10 @@ npx markdownlint-cli2 "**/*.md"
 
 ## Pull Request Process
 
-1.  Fork the repository and create your feature branch (`git checkout -b feature/AmazingFeature`).
-2.  Commit your changes and ensure they are clear and well-documented.
-3.  Push to your branch and open a Pull Request.
-4.  **Review**: A maintainer will review your work and provide feedback if necessary.
+1. Fork the repository and create your feature branch (`git checkout -b feature/AmazingFeature`).
+2. Commit your changes and ensure they are clear and well-documented.
+3. Push to your branch and open a Pull Request.
+4. **Review**: A maintainer will review your work and provide feedback if necessary.
 
 ## License
 

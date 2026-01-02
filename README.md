@@ -25,21 +25,15 @@ In an era of increasing reliance on AI for development and content creation, mai
 
 These prompts guide LLMs to produce Markdown output tailored for different levels of detail and readability.
 
-- **`prompts/markdown/markdown_strict_prompt.txt`**:
-  This prompt instructs the AI to act as an expert technical writer, generating Markdown that follows standard conventions. Ideal for producing clean documentation where consistency is preferred.
-
-- **`prompts/markdown/markdown_relaxed_prompt.txt`**:
-  This prompt also asks the AI to generate Markdown, but with a more flexible approach. It prioritizes readability and natural language flow, suitable for less formal documentation or quick drafts.
+- **`prompts/markdown/markdown_strict_prompt.txt`**: This prompt instructs the AI to act as an expert technical writer, generating Markdown that follows standard conventions. Ideal for producing clean documentation where consistency is preferred.
+- **`prompts/markdown/markdown_relaxed_prompt.txt`**: This prompt also asks the AI to generate Markdown, but with a more flexible approach. It prioritizes readability and natural language flow, suitable for less formal documentation or quick drafts.
 
 ### Git Commit Message Prompts
 
 These prompts assist in generating standardized and informative Git commit messages.
 
-- **`prompts/git/global_commit_message_prompt.txt`**:
-  A global prompt for generating Git commit messages, applicable to any project. It has been updated with examples relevant to changes made within a prompt engineering project, promoting consistent and clear commit history.
-
-- **`prompts/git/web-dev-commit/prompt.txt`**:
-  A specialized prompt designed to help LLMs generate concise and meaningful Git commit messages, particularly for web development contexts. It encourages adherence to common commit message conventions, improving repository history clarity.
+- **`prompts/git/global_commit_message_prompt.txt`**: A global prompt for generating Git commit messages, applicable to any project. It has been updated with examples relevant to changes made within a prompt engineering project, promoting consistent and clear commit history.
+- **`prompts/git/web-dev-commit/prompt.txt`**: A specialized prompt designed to help LLMs generate concise and meaningful Git commit messages, particularly for web development contexts. It encourages adherence to common commit message conventions, improving repository history clarity.
 
 ## Usage
 
@@ -47,8 +41,7 @@ The prompts within this repository are designed to be easily integrated with var
 
 You can use these prompts by either:
 
-1. **Copy-pasting the content:**
-   View the content of the desired prompt file (e.g., using `cat`) and paste it directly into your LLM CLI tool's prompt input.
+1. **Copy-pasting the content:** View the content of the desired prompt file (e.g., using `cat`) and paste it directly into your LLM CLI tool's prompt input.
 
    ```bash
    cat prompts/markdown/markdown_strict_prompt.txt
@@ -56,8 +49,7 @@ You can use these prompts by either:
    gemini ask "PASTE_YOUR_PROMPT_HERE"
    ```
 
-2. **Piping the content (if supported by your CLI tool):**
-   Many modern LLM CLI tools support reading prompt content directly from a file or standard input.
+2. **Piping the content (if supported by your CLI tool):** Many modern LLM CLI tools support reading prompt content directly from a file or standard input.
 
    ```bash
    cat prompts/markdown/markdown_strict_prompt.txt | gemini generate --model gemini-1.5-flash

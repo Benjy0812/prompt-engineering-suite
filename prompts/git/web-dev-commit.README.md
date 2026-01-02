@@ -1,7 +1,7 @@
 # 🌐 Web Dev Commit Agent
 
-[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)  
-[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)  
+[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)
+[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)
 [![License: OpenRAIL-S](https://img.shields.io/badge/License-OpenRAIL--S-yellow.svg)](../../LICENSE.md)
 
 A specialized AI agent for web developers that automates the generation of stack-aware, professional commit messages.

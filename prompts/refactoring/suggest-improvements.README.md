@@ -1,7 +1,7 @@
 # 📈 Project Improvement Agent
 
-[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)  
-[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)  
+[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)
+[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)
 [![License: OpenRAIL-S](https://img.shields.io/badge/License-OpenRAIL--S-yellow.svg)](../../LICENSE.md)
 
 An agentic AI prompt designed to act as a code reviewer and architectural consultant within your CLI workflow.

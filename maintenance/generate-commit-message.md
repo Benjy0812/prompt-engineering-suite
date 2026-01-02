@@ -1,6 +1,7 @@
 # Git Assistant: Prompt Suite
 
 Analyze `git status` and `git diff` to generate a two-tier commit message specific to prompt engineering.
+Never use git status && git diff.
 
 ## Rules
 

@@ -1,7 +1,7 @@
 # 🤖 Global Git Commit Agent
 
-[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)  
-[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)  
+[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)
+[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)
 [![License: OpenRAIL-S](https://img.shields.io/badge/License-OpenRAIL--S-yellow.svg)](../../LICENSE.md)
 
 A context-aware automation agent designed to produce industry-standard commit messages and terminal commands instantly.

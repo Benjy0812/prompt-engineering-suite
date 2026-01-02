@@ -19,7 +19,7 @@ ai-tool --prompt prompts/git/web-dev-commit/prompt.md
 ## Workflow Integration
 
 - **Shell Aliases**: Map frequent prompts to shell commands for instant access.
-- **Automation**: Use `project-specific` tools to maintain and grow this library.
+- **Automation**: Use `maintenance` tools to maintain and grow this library.
 
 ---
 
@@ -27,60 +27,44 @@ ai-tool --prompt prompts/git/web-dev-commit/prompt.md
 
 ```text
 C:.
-│   .gitignore
+│   CONTRIBUTING.md
 │   GEMINI.md
 │   LICENSE.md
 │   README.md
 │   USAGE_INSTRUCTIONS.md
 │
-├───.vscode
-│       settings.json
-│
-├───project-specific
-│   ├───generate-commit-message
-│   │       prompt.md
-│   │       README.md
-│   │
-│   └───generate-prompt
-│           prompt.md
-│           README.md
+├───maintenance
+│       generate-commit-message.md
+│       generate-commit-message.README.md
+│       generate-prompt.md
+│       generate-prompt.README.md
 │
 └───prompts
     ├───code
-    │   └───explain-code
-    │           prompt.md
-    │           README.md
+    │       explain-code.md
+    │       explain-code.README.md
     │
     ├───git
-    │   ├───global-commit
-    │   │       prompt.md
-    │   │       README.md
-    │   │
-    │   └───web-dev-commit
-    │           prompt.md
-    │           README.md
+    │       global-commit.md
+    │       global-commit.README.md
+    │       web-dev-commit.md
+    │       web-dev-commit.README.md
     │
     ├───iac
-    │   └───generate-dockerfile
-    │           prompt.md
-    │           README.md
+    │       generate-dockerfile.md
+    │       generate-dockerfile.README.md
     │
     ├───markdown
-    │   ├───markdown-relaxed
-    │   │       prompt.md
-    │   │       README.md
-    │   │
-    │   └───markdown-strict
-    │           prompt.md
-    │           README.md
+    │       markdown-relaxed.md
+    │       markdown-relaxed.README.md
+    │       markdown-strict.md
+    │       markdown-strict.README.md
     │
     ├───refactoring
-    │   └───suggest-improvements
-    │           prompt.md
-    │           README.md
+    │       suggest-improvements.md
+    │       suggest-improvements.README.md
     │
     └───testing
-        └───generate-unit-tests
-                prompt.md
-                README.md
+            generate-unit-tests.md
+            generate-unit-tests.README.md
 ```

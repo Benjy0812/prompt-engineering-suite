@@ -1,7 +1,7 @@
 # ⭐ Visual Markdown Architect
 
-[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)  
-[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)  
+[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)
+[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)
 [![License: OpenRAIL-S](https://img.shields.io/badge/License-OpenRAIL--S-yellow.svg)](../../LICENSE.md)
 
 An specialized AI prompt designed for creating high-scannability, visually guided technical documentation and professional responses.

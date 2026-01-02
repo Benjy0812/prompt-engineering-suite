@@ -1,7 +1,7 @@
 # 📝 Git Assistant: Prompt Suite
 
-[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)  
-[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)  
+[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)
+[![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)
 [![License: OpenRAIL-S](https://img.shields.io/badge/License-OpenRAIL--S-yellow.svg)](../LICENSE.md)
 
 A specialized Git assistant tailored for managing prompt engineering repositories and documentation workflows.
