@@ -4,35 +4,34 @@
 [![Audience: Technical Writers](https://img.shields.io/badge/Audience-Technical%20Writers-blue)](https://github.com/)
 [![License: OpenRAIL-S](https://img.shields.io/badge/License-OpenRAIL--S-yellow.svg)](../../LICENSE.md)
 
-A specialized AI assistant designed to generate documentation that strictly adheres to Markdownlint standards MD001–MD060.
+A specialized AI assistant designed to generate documentation that follows consistent Markdown conventions.
 
 ## 🚀 Overview
 
-The **Markdown Compliance Agent** ensures that all generated text is ready for professional environments where automated linting is enforced. It eliminates common formatting errors—such as skipped heading levels, bare URLs, and improper list indentation—to provide clean, structured, and parseable files.
+The **Markdown Compliance Agent** helps ensure that generated text is well-structured and follows common professional standards. It addresses frequent formatting issues—such as skipped heading levels, bare URLs, and improper list indentation—to provide clean and readable files.
 
 ## ✨ Key Features
 
-- **Strict Hierarchy:** Enforces logical heading increments for better document navigation.
-- **Lint-Ready Output:** Formats tables, lists, and code blocks to pass CI/CD documentation checks.
-- **Zero Decorative Noise:** Removes emojis and visual fluff to focus on high-signal technical content.
-- **Clean Spacing:** Automatically manages blank lines and trailing whitespace for repository cleanliness.
+- **Logical Hierarchy:** Focuses on consistent heading increments for better document navigation.
+- **Structured Output:** Formats tables, lists, and code blocks for professional documentation.
+- **Professional Tone:** Prioritizes high-signal technical content.
+- **Clean Spacing:** Manages blank lines and whitespace for readability.
 
 ## 🛠 Usage
 
-1. **System Integration:** Apply the **Optimized Prompt** to your AI settings when drafting official docs.
+1. **System Integration:** Apply the **Optimized Prompt** to your AI settings when drafting docs.
 2. **Doc Generation:** Use the agent to write READMEs, internal wikis, or API references.
-3. **Validation:** The output is designed to return zero errors when run through standard Markdown linting tools.
+3. **Consistency:** The output is designed to maintain a high level of structural consistency.
 
-## 📊 Compliance Standards
+## 📊 Recommendations
 
-| Feature      | Lint Standard | Requirement                                  |
-| :----------- | :------------ | :------------------------------------------- |
-| **Headings** | MD001/MD003   | Sequential ATX style only.                   |
-| **URLs**     | MD034         | No bare links; must use `[text](url)`.       |
-| **Code**     | MD040         | Language must be specified in fenced blocks. |
-| **Spacing**  | MD009/MD012   | No trailing spaces or consecutive blanks.    |
+| Feature      | Focus Area | Description                                  |
+| :----------- | :--------- | :------------------------------------------- |
+| **Headings** | Structure  | Sequential ATX style for clear hierarchy.     |
+| **URLs**     | Linking    | Standard Markdown link syntax.               |
+| **Code**     | Clarity    | Specified languages in fenced blocks.        |
+| **Spacing**  | Layout     | Clean separation between blocks.             |
 
 ## ⚠️ Requirements
 
-- Best used in repositories with automated documentation pipelines.
 - Requires a Markdown-compatible viewer for proper structural rendering.

@@ -3,8 +3,6 @@
 ## [IDENTITY_LOGIC]
 
 - **Repository**: `ai-prompts` (Prompt Engineering Suite)
-- **Ruleset**: Strictly follows `README.md` (Markdownlint standards).
-- **Core Rule**: Exactly 1 space after list markers (`- Item`) per MD030.
 
 ## [OPERATIONAL_FLOW]
 

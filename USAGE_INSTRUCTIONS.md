@@ -20,7 +20,6 @@ ai-tool --prompt prompts/git/web-dev-commit/prompt.md
 
 - **Shell Aliases**: Map frequent prompts to shell commands for instant access.
 - **Automation**: Use `project-specific` tools to maintain and grow this library.
-- **Standards**: Use `markdown-strict` for documentation to ensure zero linting errors.
 
 ---
 

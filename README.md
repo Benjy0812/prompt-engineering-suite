@@ -17,19 +17,19 @@ A curated collection of text-based prompts designed for Large Language Models (L
 
 ## Introduction
 
-In an era of increasing reliance on AI for development and content creation, maintaining consistency and quality is paramount. The Prompt Engineering Suite provides a robust set of expertly crafted prompts, allowing developers, technical writers, and content creators to leverage LLMs more effectively. By using these prompts, you can ensure that your generated content adheres to specific formatting standards and maintains a professional tone.
+In an era of increasing reliance on AI for development and content creation, maintaining clarity and quality is helpful. The Prompt Engineering Suite provides a robust set of expertly crafted prompts, allowing developers, technical writers, and content creators to leverage LLMs more effectively. By using these prompts, you can ensure that your generated content follows professional conventions and maintains a clear tone.
 
 ## Prompt Categories
 
 ### Markdown Generation Prompts
 
-These prompts guide LLMs to produce Markdown output tailored for different levels of strictness and readability.
+These prompts guide LLMs to produce Markdown output tailored for different levels of detail and readability.
 
 - **`prompts/markdown/markdown_strict_prompt.txt`**:
-  This prompt instructs the AI to act as an expert technical writer, generating Markdown that is fully compliant with a strict set of `markdownlint` rules. Ideal for producing clean, production-ready documentation where formatting consistency is critical.
+  This prompt instructs the AI to act as an expert technical writer, generating Markdown that follows standard conventions. Ideal for producing clean documentation where consistency is preferred.
 
 - **`prompts/markdown/markdown_relaxed_prompt.txt`**:
-  This prompt also asks the AI to generate Markdown, but with a more flexible and relaxed set of rules. It prioritizes readability and natural language flow over strict linting compliance, suitable for less formal documentation or quick drafts.
+  This prompt also asks the AI to generate Markdown, but with a more flexible approach. It prioritizes readability and natural language flow, suitable for less formal documentation or quick drafts.
 
 ### Git Commit Message Prompts
 

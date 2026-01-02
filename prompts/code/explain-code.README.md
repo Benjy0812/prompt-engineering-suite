@@ -12,7 +12,7 @@ The **Repository Explainer** functions as a virtual Lead Developer. It goes beyo
 
 ## ✨ Key Features
 
-- **Automated Stack Analysis:** Detects entry points and dependencies instantly.
+- **Structural Stack Analysis:** Detects entry points and dependencies instantly.
 - **Dependency Mapping:** Visualizes the relationships between internal modules.
 - **Onboarding Optimized:** Structured specifically to help new developers understand a codebase in minutes.
 - **Architectural Insights:** Identifies design patterns and suggests technical improvements.
@@ -20,7 +20,7 @@ The **Repository Explainer** functions as a virtual Lead Developer. It goes beyo
 ## 🛠 Usage
 
 1. **Context Collection:** If using a CLI agent, it will automatically run `ls` and `cat`. For standard AI, paste your file tree and core files.
-2. **Generation:** The agent will output a clean, lint-compliant Markdown document.
+2. **Generation:** The agent will output a clean, well-structured Markdown document.
 3. **Deployment:** Save the resulting text as `EXPLAINER.md` or use it to populate your project Wiki.
 
 ## 📊 Documentation Structure

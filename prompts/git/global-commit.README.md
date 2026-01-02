@@ -15,7 +15,7 @@ The **Global Git Commit Agent** eliminates the friction of writing manual logs. 
 - **Contextual Intelligence:** Automatically detects if your change is a `fix`, `feat`, or `refactor` based on code diffs.
 - **Emoji-Enhanced Logs:** Uses visual markers to make your `git log` scannable and professional.
 - **CLI Optimized:** Outputs raw bash commands for immediate copy-pasting or execution.
-- **Best Practices Enforced:** Adheres strictly to the 50/72 character rule and imperative mood.
+- **Best Practices Enforced:** Adheres to the 50/72 character rule and imperative mood for professional logs.
 
 ## 🛠 Usage
 

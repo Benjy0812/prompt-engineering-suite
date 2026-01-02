@@ -4,7 +4,7 @@
 [![Audience: Professional](https://img.shields.io/badge/Audience-Professional-blue)](https://github.com/)  
 [![License: OpenRAIL-S](https://img.shields.io/badge/License-OpenRAIL--S-yellow.svg)](../LICENSE.md)
 
-A specialized Git automation agent tailored for managing prompt engineering repositories and documentation workflows.
+A specialized Git assistant tailored for managing prompt engineering repositories and documentation workflows.
 
 ## 🚀 Overview
 

@@ -1,23 +1,14 @@
 # Contributing to The Project
 
-First off, thank you for considering contributing! To maintain high code quality and consistency, we enforce very strict formatting and linting standards.
-
-## Automated CI Checks
-
-We use GitHub Actions to automatically verify every contribution. Our `Lint Markdown` workflow triggers on every push and pull request to the `main` branch.
-
-Your Pull Request will not be merged if these checks fail:
-
-- **Prettier Check**: Verifies that all files match our project's style guide using `creyD/prettier_action`.
-- **Markdownlint**: Verifies that all `.md` files follow strict structural rules using `davidanson/markdownlint-cli2-action`.
+First off, thank you for considering contributing! We appreciate your help in improving the Prompt Engineering Suite.
 
 ## Local Development
 
-To ensure your contribution passes the automated CI checks, please run the following tools locally before pushing your code.
+While not strictly required, you can use the following tools to help maintain consistency in your contributions.
 
-### Formatting (Prettier)
+### Formatting
 
-To check if your files meet the formatting standards:
+We highly recommend using Prettier to ensure consistent formatting across the project. To check if your files meet basic formatting standards:
 
 ```sh
 npx prettier --check "**/*.md"
@@ -29,9 +20,9 @@ To automatically fix formatting issues:
 npx prettier --write "**/*.md"
 ```
 
-### Linting (markdownlint)
+### Linting
 
-To check for structural or syntax errors:
+To check for structural or syntax recommendations:
 
 ```sh
 npx markdownlint-cli2 "**/*.md"
@@ -40,10 +31,9 @@ npx markdownlint-cli2 "**/*.md"
 ## Pull Request Process
 
 1.  Fork the repository and create your feature branch (`git checkout -b feature/AmazingFeature`).
-2.  Commit your changes after verifying they pass local linting and formatting.
+2.  Commit your changes and ensure they are clear and well-documented.
 3.  Push to your branch and open a Pull Request.
-4.  **Check Status**: Monitor the "Checks" tab on GitHub for the `Lint Markdown` job. If it fails, please correct the issues in your branch and push the updates.
-5.  **Review**: Once the workflow passes (green checkmark), a maintainer will review your work.
+4.  **Review**: A maintainer will review your work and provide feedback if necessary.
 
 ## License
 
