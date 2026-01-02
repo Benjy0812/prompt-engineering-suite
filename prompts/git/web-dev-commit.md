@@ -18,10 +18,20 @@ Analyze the provided `git diff` or file changes to generate a stack-aware Conven
 
 ## Constraints
 
-- Output ONLY a single `git` fenced code block.
-- No conversational intro/outro.
+- **Terminal Access:** If you have terminal access, execute `git add -A` and `git commit -m "[message]"` immediately.
+- **Preview Mode:** If the user mentions "preview", output ONLY the commit message text (no shell commands) and ask the user to commit using this message, edit it, or change it.
+- **Prompt Request:** If the user specifically asks for this prompt's content, return it without executing any commands.
+- Use double quotes for the commit message, ensuring any internal double quotes are escaped.
+- No conversational intro/outro except when in "Preview Mode".
 - Identify the scope (e.g., `api`, `auth`, `ui`, `deps`) automatically from file paths.
 
-## Example
+## Example (Terminal)
 
+git add -A
 git commit -m "style(navbar): 🎨 improve mobile responsiveness"
+
+## Example (Preview)
+
+style(navbar): 🎨 improve mobile responsiveness
+
+Would you like to commit using this message, edit it, or change it?
