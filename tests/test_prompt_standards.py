@@ -31,7 +31,8 @@ class TestPromptStandards(unittest.TestCase):
                 content = f.read()
             with self.subTest(prompt=prompt_path):
                 for heading in self.REQUIRED_HEADINGS:
-                    self.assertIn(heading, content, f"Missing heading '{heading}' in {prompt_path}")
+                    if heading not in content:
+                        self.fail(f"Missing heading '{heading}' in {prompt_path}")
 
     def test_placeholder_syntax(self):
         """All prompts MUST use the unified placeholder syntax (e.g., {{CODE}})."""
@@ -49,9 +50,6 @@ class TestPromptStandards(unittest.TestCase):
             with open(prompt_path, 'r', encoding='utf-8') as f:
                 content = f.read()
             with self.subTest(prompt=prompt_path):
-                for pattern in old_syntax_patterns:
-                    matches = re.findall(pattern, content)
-                    self.assertEqual(len(matches), 0, f"Found old placeholder syntax {matches} in {prompt_path}")
-
-if __name__ == '__main__':
-    unittest.main()
+                found_old_syntax = any(re.search(pattern, content) for pattern in old_syntax_patterns)
+                if found_old_syntax:
+                    self.fail(f"Old placeholder syntax found in {prompt_path}")
